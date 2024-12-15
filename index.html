@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>트랜스미션 한글 Transmission Hangeul</title>
+        <style>
+            @font-face {
+                font-family: 'NotoSansKR-R';
+                src: url('./fonts/NotoSansKR-Regular.otf') format('opentype');
+                font-weight: normal;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'EBSHunminjeongeumR';
+                src: url('./fonts/EBSHunminjeongeumR.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+            html, body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                overflow: hidden;
+                background-color: #000;
+            }
+            .container {
+                text-align: center;
+                margin: 0px 0;
+            }
+            .image {
+                width: 600px;
+                height: 600px;
+                background-image: url('./img/18.jpg');
+                background-size: cover;
+                background-position: center;
+                display: inline-block;
+            }
+            .big-text {
+                font-family: 'EBSHunminjeongeumR', sans-serif;
+                font-size: 80px;
+                margin: 15px 0;
+                color: #fff;
+            }
+            .small-text {
+                font-family: 'NotoSansKR-R', sans-serif;
+                font-size: 30px;
+                color: #fff;
+            }
+            .small-text a {
+                text-decoration: none;
+                color: #fff;
+                margin: 0 10px;
+            }
+            @media (max-width: 1080px) {
+                html, body {
+                    margin: 0;
+                    padding: 0;
+                    height: 100%;
+                    overflow: hidden;
+                }
+                .image {
+                    width: 300px;
+                    height: 300px;
+                }
+                .big-text {
+                    font-family: 'EBSHunminjeongeumR', sans-serif;
+                    font-size: 40px;
+                    margin: 15px 0;
+                    color: #fff;
+                }
+                .small-text {
+                    font-family: 'NotoSansKR-R', sans-serif;
+                    font-size: 20px;
+                    color: #fff;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="image"></div>
+            <div class="big-text">트랜스미션 한글</div>
+            <div class="small-text">
+                <a href="https://unhappy-cosmictraveler.github.io/transmission-hangeul/kor.html">한국어</a>
+                <a href="https://unhappy-cosmictraveler.github.io/transmission-hangeul/eng.html">English</a>
+            </div>
+        </div>             
+    </body>
+</html>
