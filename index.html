@@ -19,13 +19,17 @@
                 text-align: center;
                 margin: 0px 0;
             }
+            .img-container {
+                position: relative;
+                display: inline-block;
+                border: 1px solid white;
+            }
             .img {
                 width: 600px;
                 height: 600px;
                 background-image: url('./img/18.jpg');
                 background-size: cover;
                 background-position: center;
-                display: inline-block;
             }
             .big-text {
                 font-family: 'EBSHunminjeongeumR', sans-serif;
@@ -56,26 +60,15 @@
                 font-style: normal;
             }
             @media (max-width: 1080px) {
-                html, body {
-                    margin: 0;
-                    padding: 0;
-                    height: 100%;
-                    overflow: hidden;
-                }
-                .img {
+                .img-container {
                     width: 300px;
                     height: 300px;
                 }
                 .big-text {
-                    font-family: 'EBSHunminjeongeumR', sans-serif;
                     font-size: 40px;
-                    margin: 15px 0;
-                    color: #fff;
                 }
                 .small-text {
-                    font-family: 'NotoSansKR-R', sans-serif;
                     font-size: 20px;
-                    color: #fff;
                 }
             }
         </style>
@@ -83,7 +76,9 @@
     
     <body>
         <div class="container">
-            <div class="img"></div>
+            <div class="img-container">
+                <div class="img"></div>
+            </div>
             <div class="big-text">트랜스미션 한글</div>
             <div class="small-text">
                 <a href="https://unhappy-cosmictraveler.github.io/transmission-hangeul/kor.html">한국어</a>
