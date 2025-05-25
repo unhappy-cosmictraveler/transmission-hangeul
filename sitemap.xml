@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://transmission-hangeul.space/kor.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://transmission-hangeul.space/kor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transmission-hangeul.space/eng.html"/>
+  </url>
+
+  <url>
+    <loc>https://transmission-hangeul.space/eng.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transmission-hangeul.space/eng.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://transmission-hangeul.space/kor.html"/>
+  </url>
+
+  <url>
+    <loc>https://transmission-hangeul.space</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transmission-hangeul.space"/>
+  </url>
+
+</urlset>
