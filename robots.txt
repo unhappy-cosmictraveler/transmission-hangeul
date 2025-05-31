@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /sitemap.xml
 
 Sitemap: https://transmission-hangeul.space/sitemap.xml
